@@ -540,12 +540,12 @@
 
     <div class="card">
       <div class="card-title">The Cooldown Period</div>
-      <div class="card-body">The cooldown period is the most behaviorally grounded feature in Savr. Our user research surfaced a consistent pattern: purchases feel justified in the moment and regrettable shortly after. The emotional state during browsing, whether boredom, stress, or social pressure, elevates desire artificially. By separating the moment of saving an item from the moment of deciding on it, we replicate the effect of "sleeping on it" that people intuitively know works but rarely practice. Time changes the emotional context. An item that felt urgent at 11pm often feels unnecessary by the next afternoon. The cooldown period does not add friction to punish the user. It simply creates the distance that good decision-making requires.</div>
+      <div class="card-body">We implemented a waiting period between saving an item and deciding to purchase it because impulse buying happens during moments when a person is emotionally vulnerable, like stress, boredom, or FOMO. By creating a space between the impulse and the action, we interrupted the purchasing cycle that shopping platforms usually enable. The pause gives the users’ emotions time to settle and actually think rationally.</div>
     </div>
 
     <div class="card">
       <div class="card-title">AI Reflection Prompts</div>
-      <div class="card-body">Static reflection questions fail for the same reason generic budgeting advice fails: they do not speak to the individual. A user who stress-shops needs a different prompt than a user who shops out of boredom or social pressure. Our onboarding collects spending triggers and personal goals precisely so the AI can tailor prompts to the person's established patterns. We were careful here, however. Our user journey map flagged a real risk that prompts could feel repetitive or preachy over time, which would cause users to disengage. The design response was to tie prompts to behavioral patterns detected across sessions, so the questions evolve rather than repeat, and to frame them as curiosity rather than judgment.</div>
+      <div class="card-body">While existing budgeting apps only show users what they’ve already spent, financial literacy alone doesn’t prevent impulse buying. It’s convenience and emotions that matter. We designed personalized AI reflections to make the cooldown period actually purposeful instead of just a delay. The prompts help users think about why they want an item, helping them distinguish between a need and a want. This makes the pause into a productive reflection.</div>
     </div>
 
     <div class="card">
@@ -555,7 +555,7 @@
 
     <div class="card">
       <div class="card-title">Saving Items Instead of Buying</div>
-      <div class="card-body">The framing of "save to Savr" rather than "add to wishlist" is a small but deliberate distinction. Wishlist implies passive accumulation with no expectation of action. Saving to Savr carries an implicit contract with yourself that you will return and make a real decision. This reframing was also designed to replace the checkout action in the user's mental model. Instead of the dopamine hit of clicking "buy," the user gets a satisfying confirmation that the item is saved and waiting. We redirect the reward without removing it, which reduces the likelihood that the user simply opens the original shopping app and buys the item anyway out of frustration.</div>
+      <div class="card-body">We chose “save item” because the other options we thought about didn’t really solve the problem we saw with college students. Carts and wishlists already exist, but they don’t stop impulse buying since they still sit inside shopping apps and usually just lead to checkout anyway. Normal budgeting apps also don’t help since they focus on what you already spent rather than what you are about to spend. We also thought about stronger ideas like blocking purchases or forcing a waiting period, but that felt too strict. Most college students would probably ignore it or stop using the app altogether. So saving items was our middle ground. It takes the pressure off the decision, moves it out of the shopping app, and adds a pause without taking control away from the user.</div>
     </div>
 
     <div class="card">
